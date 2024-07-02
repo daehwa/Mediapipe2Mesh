@@ -15,6 +15,8 @@ pip install -r requirements.txt
 
 ```
 
+\* Due to the issue in Open3D, you may need python3.8 or lower.
+
 ## Usage
 
 ```
