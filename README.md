@@ -8,6 +8,12 @@ From mediapipe hand joint, via inverse kinematics, create MANO hand mesh. Visual
 
 ## Installation
 
+If you don't have python3.8,
+
+```
+brew install python@3.8
+```
+
 ```
 python3.8 -m venv venv
 source venv/bin/activate
@@ -15,7 +21,7 @@ pip install -r requirements.txt
 
 ```
 
-\* Due to the issue in Open3D, you may need python3.8 or lower.
+\* Due to the issue in Open3D, you may need python3.8 or lower. It may require open3d version 0.14.1 and this is available python3.8 or lower.
 
 ## Usage
 
