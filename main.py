@@ -77,7 +77,7 @@ while cap.isOpened():
     # Display the frame
     cv2.imshow('MediaPipe Hands', frame)
 
-    if cv2.waitKey(5) & 0xFF == 27:
+    if cv2.waitKey(5) == ord('q'):
         break
 
 # Release resources

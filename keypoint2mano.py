@@ -33,7 +33,6 @@ class Keypoints2Mano():
             res = x / np.linalg.norm(x)
             return res
         v05 = hand_data[5]-hand_data[0]
-        print(np.linalg.norm(v05))
         v017 = hand_data[17]-hand_data[0]
         normal = normalize(np.cross(v017,v05))
         x_axis = normalize(v05)
