@@ -3,7 +3,8 @@
 From mediapipe hand joint, via inverse kinematics, create MANO hand mesh. Visualize the mesh with Open3D.
 
 ![demo](./demo.gif)
-(Hands are flipped as camera is mirrored. This supposed to work with right hand without camera flip.)
+
+\* Hands are flipped as the camera is mirrored. This is supposed to work with a right hand without a camera flip.
 
 ## Installation
 
