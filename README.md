@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ```
 
-\* Due to the issue in Open3D, you may need python3.8 or lower. It may require open3d version 0.14.1 and this is available python3.8 or lower.
+\* If you are in MacOS M processors, you may need python3.8 or lower due to the issue in Open3D. It may require open3d version 0.14.1 and this is available python3.8 or lower.
 
 ## Usage
 
